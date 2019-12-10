@@ -38,11 +38,14 @@ public class Main {
         manThatCanBeDated.forEach(person -> System.out.println(person.name));
 
         System.out.println();
+        System.out.println("These are all women that you can date");
+        womanThatCanBeDated.forEach(person -> System.out.println(person.name));
+
+        System.out.println();
         System.out.println("DATE APP: ");
 
         for (Person temp : people)
         {
-            System.out.println();
             date(temp);
         }
     }
